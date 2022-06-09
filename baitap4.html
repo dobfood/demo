@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            background-color:navajowhite;
+            margin: 10px;
+            padding: 5px;
+        }
+        h1{
+            background-color: #868585;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<form action="" method="post">
+<div style="width: 300px">
+<h1>Dang Ky Hoc vien</h1>
+    </div>
+    <table>
+    <tr>
+    <td> <label for="ten">Ho va ten: </label> </td>
+<td> <input type="text" id="ten" name="ten" placeholder="nhap ten" required> </td>
+    </tr>
+    <tr>
+        <td> <label for="ngay">Ngay sinh:</label></td>
+        <td> <input type="text" id="ngay" name="ngay" placeholder="nhap ngay sinh" required> </td>
+    </tr>
+        <tr>
+            <td> <label>Gioi Tinh</label></td>
+            <td><input type="Radio" id="male" name="contac" checked>
+                <label for="male"> Nam</label>
+            <input type="radio" id="fmale" name="contac">
+            <label for="fmale">Nu</label></td>
+</tr>
+    <tr>
+        <td><label for="from">Dia chi:</label></td>
+        <td><input type="text" id="from" name="from" placeholder="nhap dia chi" required></td>
+    </tr>
+        <tr>
+            <td><label> Lop:</label></td>
+       <td> <select>
+        <option value="sreach"> --Chon Lop-- </option>
+        <option value="1"> Lop 1</option>
+        <option value="2">Lop 2</option>
+        <option value="3"> Lop 3</option>
+        <option value="4">Lop 4</option>
+        <option value="5">Lop 5</option>
+       </select> </td>
+        </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="text" id="email" name="email" placeholder="nhap email" required></td>
+            </tr>
+    <tr>
+        <td><label for="phone">So dien thoai:</label></td>
+        <td><input type="text" id="phone" name="phone" placeholder="nhap so dien thoai" required></td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Dang Ky"></td>
+        <td><input type="reset" value="Nhap lai"></td>
+    </tr>
+    </table>
+</form>
+
+</body>
+</html>
