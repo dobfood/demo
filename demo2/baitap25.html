@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = prompt('enter a number')
+    let n = 0
+    let sum = 0
+    for (let i=1;i++;i<number) {
+        if (i % 7 === 0) {
+            document.write(i + " ")
+            number += i+"";
+            console.log(number)
+            sum+=i
+            n++
+            if (n===30)break
+        }
+    }
+    document.write('<br>' + n)
+    document.write(" tong = "+sum)
+</script>
+</body>
+</html>

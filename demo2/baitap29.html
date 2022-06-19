@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let hight = parseInt(prompt('nhap chieu cao' ));
+  let width = parseInt(prompt('nhap chieu rong'));
+  for (let i=0;i<hight;i++){
+      for (let j=0;j<width;j++){
+          if (i === 0|| i == hight- 1 || j===0 ||j == width-1){
+              document.write('*')
+          }
+          else {
+              document.write('&ensp;')
+          }
+      }
+      document.write('<br>')
+  }
+</script>
+</body>
+</html>
