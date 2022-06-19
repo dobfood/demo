@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+
+</table>
+<script>
+    let value =parseInt(prompt("nhap so muon tim "))
+    let number = [3,5,7,2,1];
+    let index=-1;
+    for(let i=0 ;i<number.length;i++){
+        if (value===number[i]) {
+            index=i;
+            break;
+            //alert(" gia tri " + number[i]+" o vi tri thu "+i);
+    }
+        if (index===-1){
+            console.log(-1);
+        }
+        else{
+            console.log(index);
+        }
+    }
+</script>
+</body>
+</html>
